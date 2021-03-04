@@ -74,10 +74,10 @@ function bevitel() {
     }
 
     if(enSzamom > velSzam) {
-        document.getElementById("allapot").innerText += "a kód kisebb mint a beütött számsorozat."
+        document.getElementById("allapot").innerText += " a kód kisebb mint a beütött számsorozat."
         document.getElementById("allapot").style.color =  "red";
     }else if (enSzamom < velSzam) {
-        document.getElementById("allapot").innerText += "a kód nagyobb mint a beütött számsorozat."
+        document.getElementById("allapot").innerText += " a kód nagyobb mint a beütött számsorozat."
         document.getElementById("allapot").style.color =  "red";
     }
 }
