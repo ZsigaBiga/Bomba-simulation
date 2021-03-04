@@ -69,15 +69,15 @@ function bevitel() {
         defuse.play();
     }
     else {
-        document.getElementById("allapot").innerText = "Állapot: helytelen kód, ";
+        document.getElementById("allapot").innerText = "Állapot: helytelen kód," + " ";
         document.getElementById("allapot").style.color =  "red";
     }
 
     if(enSzamom > velSzam) {
-        document.getElementById("allapot").innerText += " a kód kisebb mint a beütött számsorozat."
+        document.getElementById("allapot").innerText += "a kód kisebb mint a beütött számsorozat."
         document.getElementById("allapot").style.color =  "red";
     }else if (enSzamom < velSzam) {
-        document.getElementById("allapot").innerText += " a kód nagyobb mint a beütött számsorozat."
+        document.getElementById("allapot").innerText += "a kód nagyobb mint a beütött számsorozat."
         document.getElementById("allapot").style.color =  "red";
     }
 }
