@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "script.js"></script>
+    <link rel ="stylesheet" href ="still.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "bomba-screen">
+        <span id="bevSzam"></span>
+    </div>
+
+    <div id = "gomb-panel">
+        <div id ="gomb-keret">
+            <button id ="1" value="1" class ="panel-gombok" onclick="egy()">1</button>
+            <button id ="2" value="2" class ="panel-gombok" onclick="ketto()">2</button>
+            <button id ="3" value="3" class ="panel-gombok" onclick="harom()">3</button>
+            <br>
+            <button id ="4" value="4" class ="panel-gombok" onclick="negy()">4</button>
+            <button id ="5" value="5" class ="panel-gombok" onclick="ot()">5</button>
+            <button id ="6" value="6" class ="panel-gombok" onclick="hat()">6</button>
+            <br>
+            <button id ="7" value="7" class ="panel-gombok" onclick="het()">7</button>
+            <button id ="8" value="8" class ="panel-gombok" onclick="nyolc()">8</button>
+            <button id ="9" value="9" class ="panel-gombok" onclick="kilenc()">9</button>
+            <br>
+            <button id ="0" value="0" class ="panel-gombok" onclick="nulla()">0</button>
+
+            <button onclick="bevitel()" class ="panel-gombok" >OK</button>
+            <button onclick="torles()" class ="panel-gombok" >DEL</button>
+        </div>
+
+        <p id="allapot">Állapot: bevitelre vár</p>
+
+        <div id="menjmakozepre">
+            <p id="szamlalo"></p>
+
+            <button onclick="kezdes()" id ="start">START</button>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
